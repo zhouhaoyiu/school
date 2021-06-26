@@ -1,0 +1,53 @@
+.authen-teacher-content {
+  margin-top: 1rem;
+}
+.authen-teacher-content .item-table .set-group {
+  display: flex;
+  align-items: center;
+}
+.authen-teacher-content .item-table .set-group .set-item:last-child {
+  margin: 0px;
+}
+.authen-teacher-content .item-table .set-group .set-item {
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.authen-teacher-content .item-table .set-group .set-item .search-icon {
+  float: left;
+  width: 1rem;
+  margin-right: 0.3rem;
+}
+.authen-teacher-content .item-table .group-select-box {
+  width: 70%;
+}
+.authen-teacher-content .item-table .group-select-box .select-item:last-child {
+  margin: 0px;
+}
+.authen-teacher-content .item-table .group-select-box .select-item {
+  background: #DDDDDD;
+  padding: 0px 0.5rem 0px 1rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.authen-teacher-content .item-table .group-select-box .select-item .content {
+  display: flex;
+  width: 100%;
+}
+.authen-teacher-content .item-table .group-select-box .select-item .icon {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.authen-teacher-content .item-table .real-name-box .el-input__inner,
+.authen-teacher-content .item-table .phone-box .el-input__inner,
+.authen-teacher-content .item-table .email-box .el-input__inner {
+  width: auto;
+}
+.authen-teacher-content .item-table .modify-info {
+  text-align: left;
+}
+.authen-teacher-content .item-table .modify-info .txt.normal {
+  color: #aaa;
+}
